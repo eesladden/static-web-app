@@ -40,7 +40,7 @@ h1 {
     font-size: 36px;
     text-shadow: 2px 2px 4px rgb(0, 77, 144);
     margin-top: 20px;
-    top: 150px;
+    top: 100px;
     right: 290px;
     position: relative;
     text-align: center;
@@ -61,7 +61,7 @@ p {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 24, 44);
-    top: 150px;
+    top: 90px;
     position: relative;
     margin-right: 650px;
     margin-left: 70px;
