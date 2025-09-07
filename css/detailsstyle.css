@@ -40,14 +40,30 @@ h1 {
     font-size: 36px;
     text-shadow: 2px 2px 4px rgb(0, 77, 144);
     margin-top: 20px;
+    top: 150px;
+    right: 290px;
     position: relative;
     text-align: center;
 }
 img {
-    margin: 8px;
     border: 2px solid rgb(0, 16, 30);
     border-radius: 8px;
     position: relative;
-    left: 30%;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    right: 40px;
+    bottom: 40px;
+    float: right;
+}
+p {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 24, 44);
+    top: 150px;
+    position: relative;
+    margin-right: 650px;
+    margin-left: 70px;
+    text-align: center;
 }
