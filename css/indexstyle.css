@@ -4,11 +4,12 @@ body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 h1 {
-    color: black;
+    color: rgb(0, 16, 30);
     font-size: 36px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgb(0, 77, 144);
     margin-top: 20px;
-    margin-right: 385px;
+    position: relative;
+    text-align: center;
 }
 #image-container {
     margin-top: 25px;
@@ -18,19 +19,21 @@ h1 {
 }
 img {
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 16, 30);
     border-radius: 8px;
     position: relative;
 }
 p {
     font-size: 16px;
-    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 24, 44);
     margin-top: 5px;
     font-weight: bold;
 }
 .image-description {
     font-size: 14px;
-    color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 53, 96);
     margin-top: 5px;
     margin-bottom: 15px;
     display: block;
@@ -43,18 +46,26 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #9cafc6;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul li {
     float: left;
 }
 li a {
     display: block;
-    color: black;
+    color: rgb(0, 16, 30);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover {
-    background-color: #595959;
+    background-color: #355375;
+}
+li a.active {
+    background-color: #4c7aaf;
+    color: #d8e1eb;
 }
