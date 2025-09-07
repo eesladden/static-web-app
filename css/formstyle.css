@@ -39,3 +39,23 @@ li a.active {
     background-color: #4c7aaf;
     color: #d8e1eb;
 }
+label {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 24, 44);
+    margin-top: 10px;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+input[type="file"] {
+    left: 35px;
+    margin: 10px auto;
+    position: relative;
+}
+input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
