@@ -3,21 +3,36 @@
   <head>
   <style>
     body {
-      background-color: rgb(184, 168, 163);
+      background-color: white;
       text-align: center;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     h1 {
       color: black;
       font-size: 36px;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+    img {
+        margin: 10px;
+        border: 2px solid black;
+        border-radius: 8px;
+        position: relative;
+    }
   </style>
   </head>
   <body>
-    <h1>Gallery</h1>
-    <a href = "details.html">
-        <img src="https://birdlifedata.blob.core.windows.net/species-images/22678108.jpg" alt="Southern Cassowary" width="150" height="150">
-    </a>
+    <h1>Unusual Animal Gallery</h1>
   </body>
+  <form class = "image-search-form">
+    <input type="text" placeholder="Search images..." name="search">
+    <button type="submit" id="image-search-button">Search</button>
+  </form>
+  <div id="image-container">
+     <a href="details.html">
+       <img src="https://birdlifedata.blob.core.windows.net/species-images/22678108.jpg" data-tags="bird, cassowary, southern" alt="Southern Cassowary" width="200" height="200">
+     </a>
+     <a href="details.html">
+       <img src="https://www.zooborns.com/.a/6a010535647bf3970b01543237b7e3970c-500wi" data-tags="mammal, gundi, rodent" alt="Common Gundi" width="200" height="200">
+     </a>
+  </div>
 </html>
