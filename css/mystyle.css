@@ -7,6 +7,14 @@ h1 {
     color: black;
     font-size: 36px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-right: 385px;
+}
+#image-container {
+    margin-top: 25px;
+}
+.image-search-form {
+    margin-top: 25px;
 }
 img {
     margin: 10px;
@@ -29,4 +37,24 @@ p {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+ul li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #595959;
 }
